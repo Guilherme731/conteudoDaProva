@@ -52,3 +52,25 @@ body{
     padding: 20px 40px;
     color: white;
 }
+
+#conteudoCSS h2{
+    color: rgb(48, 48, 255);
+}
+
+.elementosLadoALado{
+    display: flex;
+    
+}
+
+#demonstracoesAcessos{
+    justify-content: center;
+}
+
+.acesso{
+    background-color: rgb(0, 56, 211);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid 4px white;
+    margin: 10px 30px;
+}
