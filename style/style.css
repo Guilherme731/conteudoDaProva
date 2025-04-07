@@ -46,7 +46,7 @@ body{
     display: flex;
 }
 
-#listaTags{
+.quadradoLista{
     background-color: rgb(0, 56, 211);
     border-radius: 20px;
     padding: 20px 40px;

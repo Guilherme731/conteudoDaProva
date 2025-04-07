@@ -29,7 +29,7 @@
             <p>Um arquivo HTML deve começar com DOC ou !DOCTYPE. Se for o arquivo principal iniciado pelo navegador, deve se chamar index.html</p>
             <p>Para o navegador reconhecer os elementos são utilizadas tags, que são marcadores de texto. As mais famosas estão explicadas abaixo:</p>
             <div>
-                <ul id="listaTags">
+                <ul class="quadradoLista">
                     <li>Head: É a parte invisível do site, onde se colocam referências de CSS e título da página, por exemplo;</li>
                     <li>Body: É a parte visível do site, onde se colocam a maior parte dos elementos;</li>
                     <li>Header: É uma tag semântica que indica cabeçalho da página;</li>
@@ -49,6 +49,42 @@
                     <li>Link: Usado para conectar um arquivo CSS.</li>
                 </ul>
             </div>
+        </section>
+
+        <section class="padraoSecao" id="conteudoCSS">
+            <h2>CSS</h2>
+            <a href="/estilos.html">Clique para Visualizar Estilizações</a>
+            <p>O CSS é responsável pelo estilo da página, organizando e modificando propiedades dos elementos HTML.</p>
+            <p>Para modificar elementos, é possível acessá-los por ID (único por elemento), Classe (pode repetir) ou Tag</p>
+            <div id="demonstracoesAcessos">
+                <div class="acesso">
+                    <h3>Classe</h3>
+                    <p>.nomeDaClasse{</p>
+                    <p>}</p>
+                </div>
+                <div class="acesso">
+                    <h3>ID</h3>
+                    <p>#nomeDoID{</p>
+                    <p>}</p>
+                </div>
+                <div class="acesso">
+                    <h3>Tag</h3>
+                    <p>nomeDaTag{</p>
+                    <p>}</p>
+                </div>
+            </div>
+
+            <p>Existem várias formas de organizar os elementos em uma página. Para isso, existem diversas opções de 'display' que podem ser usadas:</p>
+            <div>
+                <ul class="quadradoLista">
+                    <li>Flex;</li>
+                    <li>Grid;</li>
+                    <li>FlexBox;</li>
+                    <li>Block;</li>
+                </ul>
+            </div>
+
+            <p>Por questão de boas práticas, utilize apenas 1 arquivo CSS por página.</p>
         </section>
     </main>
 
