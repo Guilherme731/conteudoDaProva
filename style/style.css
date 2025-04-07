@@ -19,8 +19,36 @@ body{
 #boasVindas{
     background-color: rgb(119, 162, 255);
     padding: 200px 70px;
+    font-size: 20px;
 }
 #boasVindas h1{
     margin: 0;
     font-size: 50px;
+}
+
+.padraoSecao{
+    background-color: rgb(76, 232, 232);
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.padraoSecao h2{
+    font-size: 35px;
+    margin-top: 0;
+}
+
+#conteudoHTML h2{
+    color: orangered;
+    
+}
+
+#conteudoHTML div{
+    display: flex;
+}
+
+#listaTags{
+    background-color: rgb(0, 56, 211);
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: white;
 }
