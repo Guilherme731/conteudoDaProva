@@ -74,3 +74,21 @@ body{
     border: solid 4px white;
     margin: 10px 30px;
 }
+
+#conteudoGIT h2{
+    color: rgb(255, 151, 48);
+}
+
+#conteudoJS h2{
+    color: rgb(181, 187, 0);
+}
+
+.botaoAcao{
+    font-size: 15px;
+    border: solid 4px yellow;
+    background-color: black;
+    color: yellow;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px 15px;
+}
