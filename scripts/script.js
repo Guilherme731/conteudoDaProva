@@ -11,7 +11,7 @@ function mudarCorJS(){
 }
 
 function mudarTextoApresentacao(){
-    document.getElementById('textoApresentacao').innerText = 'Esse site está sendo modificado dinamicamente por JS!!!';
+    document.getElementById('textoApresentacao').innerText = 'Esse site está sendo modificado dinâmicamente por JS!!!';
 }
 
 function mudarTitulo(){
