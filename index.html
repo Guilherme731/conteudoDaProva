@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conteúdo da Prova - Prog. de Aplicativos</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/script.js"></script>
 </head>
 <body>
 
@@ -13,15 +14,15 @@
             <a href="#conteudoHTML">HTML</a>
             <a href="#conteudoCSS">CSS</a>
             <a>CSS - Exemplos</a>
-            <a>GIT</a>
-            <a>JS</a>
+            <a href="#conteudoGIT">GIT</a>
+            <a href="#conteudoJS">JS</a>
         </div>
     </header>
 
     <main>
         <section id="boasVindas">
             <h1>Conteúdo da Prova</h1>
-            <p>Nesse site, você vai encontrar tudo o que precisa saber para tirar A.</p>
+            <p id="textoApresentacao">Nesse site, você vai encontrar tudo o que precisa saber para tirar A.</p>
         </section>
         <section class="padraoSecao" id="conteudoHTML">
             <h2>HTML</h2>
@@ -157,8 +158,8 @@
             <br>
             <p>Exemplos de JavaScript:</p>
             <button type="button" onclick="mudarCorJS()" class="botaoAcao">Mudar a cor de fundo da seção</button>
-            <button type="button" onclick="mudarCorJS()" class="botaoAcao">Mudar texto de apresentação do site</button>
-            <button type="button" onclick="mudarCorJS()" class="botaoAcao">Mudar o título da aba</button>
+            <button type="button" onclick="mudarTextoApresentacao()" class="botaoAcao">Mudar texto de apresentação do site</button>
+            <button type="button" onclick="mudarTitulo()" class="botaoAcao">Mudar o título da aba</button>
             
         </section>
     </main>
